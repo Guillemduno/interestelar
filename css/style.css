@@ -30,15 +30,19 @@ header {
 }
 
 section {
-  background-color:#D4E4BC;
+  background-color: #d4e4bc;
   width: 80%;
   display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
   flex-wrap: wrap;
-  width: 100%;
+
+  /*width: 100%;*/
 }
 
 aside {
-  background-color:#D4E4BC;
+  background-color: #d4e4bc;
   width: 20%;
   border: 5px solid red;
 }
@@ -52,8 +56,8 @@ footer {
 .article {
   margin-top: 1px;
   padding-left: 3px;
-  display: flex;
-  flex-direction: column;
+  /*display: flex;
+  flex-direction: column;*/
   width: 33%;
 }
 
@@ -62,11 +66,37 @@ footer {
   text-align: center;
   color: white;
   overflow: hidden;
-  width: 98%;
-  height: 98%;
+  width: 100%;
+  height: 80%;
+  /*display: flex;
+  flex-direction: column;*/
+  margin-bottom: 0px;
 }
 
 .texto {
   width: 100%;
   position: relative;
+  text-align: center;
+  margin-top: -5px;
+}
+
+.textoBanda {
+  background-color: blue;
+  color: white;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 10%;
+  left: -30%;
+  width: 90%;
+  font-size: 20px;
+}
+
+.subtitulo {
+  background-color: black;
+  color: white;
+  text-align: center;
+  position: relative;
+  margin-top: -5px;
+  font-size: 20px;
+  margin-bottom: -5px;
 }
