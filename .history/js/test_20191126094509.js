@@ -1,0 +1,6 @@
+
+
+windows.onload=()=>{
+
+    console.log('')
+}
